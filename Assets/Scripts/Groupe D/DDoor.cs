@@ -7,6 +7,6 @@ public class DDoor : Interactive
 
     public override void OnInteraction()
     {
-        Debug.LogError("LOAD THE SECOND SCENE");
+        Debug.LogWarning("LOAD THE SECOND SCENE");
     }
 }
