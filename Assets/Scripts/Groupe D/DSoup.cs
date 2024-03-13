@@ -1,13 +1,20 @@
 using UnityEngine;
 
+
+public enum D_SoupType
+{
+    Riche,
+    Os,
+    Viande,
+    Legume,
+}
 public class DSoup : Interactive
 {
-    [Header("0 : soup de riche | 1 : soupe d'os | 2 : soupe de viande | 3 : soupe de legume")]
-    [SerializeField] private int soupIndex;
+    [SerializeField] private D_SoupType soupIndex;
     public override void OnInteraction()
     {
 
         DBowl bowl = FindObjectOfType<DBowl>();
-        bowl.SetSoup(soupIndex);
+        bowl.SetSoup((int)soupIndex);
     }
 }
