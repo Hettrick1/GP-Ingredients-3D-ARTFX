@@ -2,17 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DPlates : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+public class DPlates : Interactive
+{
+
+
+    public override void OnInteraction()
     {
-        
+        DBowl bowl = FindObjectOfType<DBowl>();
+        SetSoup(bowl.GetSoupIndex());
+    }
+    public void SetSoup(int soupIndex)
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+
+        transform.GetChild(soupIndex + 1).gameObject.SetActive(true);
     }
 }
+
+
