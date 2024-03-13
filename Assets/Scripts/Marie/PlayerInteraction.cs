@@ -47,7 +47,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Interact()
     {
-        if (_inventory.HasEveryItem(_possibleInteractive.requiredItems))
+        if (_inventory.HasEveryItem(_possibleInteractive.requiredItems) && _possibleInteractive !=null)
         {
             _possibleInteractive.OnInteraction();
             if (_possibleInteractive.onlyOnce)
@@ -55,7 +55,7 @@ public class PlayerInteraction : MonoBehaviour
                 DisableInteractive();
             }
         }
-        else
+        else if (_possibleInteractive != null)
         {
             _anim.PlayAnimation(_possibleInteractive.interactionType);
             Invoke("OnFail", 1f);
