@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class DQuestBook : Interactive
 {
-    [SerializeField]private GameObject questBook;
+    [SerializeField] private GameObject questBook;
 
     bool isShowing;
     public override void OnInteraction()
@@ -22,3 +23,4 @@ public class DQuestBook : Interactive
         }
     }
 }
+

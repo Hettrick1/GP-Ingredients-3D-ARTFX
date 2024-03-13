@@ -3,6 +3,7 @@ using UnityEngine;
 public class DBowl : MonoBehaviour
 {
     private int soupIndex;
+
     public void SetSoup(int _soupIndex)
     {
         soupIndex = _soupIndex;
@@ -13,4 +14,5 @@ public class DBowl : MonoBehaviour
         }
         transform.GetChild(soupIndex + 1).gameObject.SetActive(true);
     }
+    public int GetSoupIndex() { return soupIndex; }
 }
