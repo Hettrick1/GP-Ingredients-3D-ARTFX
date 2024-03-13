@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class DPlates : Interactive
 {
+    bool isSameSoup;
 
+    [SerializeField] private D_SoupType soupType;
 
     public override void OnInteraction()
     {
@@ -20,7 +22,16 @@ public class DPlates : Interactive
         }
 
         transform.GetChild(soupIndex + 1).gameObject.SetActive(true);
+        if(soupIndex == (int)soupType)
+        {
+            isSameSoup = true;
+        }
+        else
+        {
+            isSameSoup = false;
+        }
     }
+    public bool GetIsSameSoup() { return isSameSoup; }
 }
 
 
