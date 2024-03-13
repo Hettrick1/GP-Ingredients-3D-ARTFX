@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -47,6 +48,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Interact()
     {
+        if (_possibleInteractive == null) return;
         if (_inventory.HasEveryItem(_possibleInteractive.requiredItems))
         {
             _possibleInteractive.OnInteraction();
@@ -58,7 +60,7 @@ public class PlayerInteraction : MonoBehaviour
         else
         {
             _anim.PlayAnimation(_possibleInteractive.interactionType);
-            Invoke("OnFail", 1f);
+            StartCoroutine(OnFail());
         }
     }
 
@@ -87,8 +89,9 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
-    private void OnFail()
+    private IEnumerator OnFail()
     {
+        yield return new WaitUntil(()=> !PlayerInteractionAnim.AnimationInProgress);
         _anim.PlayAnimation(InteractionType.FailedAction);
         SetInteraction(InteractionType.FailedAction);
     }
