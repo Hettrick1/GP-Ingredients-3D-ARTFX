@@ -6,6 +6,8 @@ public class DSoup : Interactive
     [SerializeField] private int soupIndex;
     public override void OnInteraction()
     {
-        DBowl.instance.SetSoup(soupIndex);
+
+        DBowl bowl = FindObjectOfType<DBowl>();
+        bowl.SetSoup(soupIndex);
     }
 }
