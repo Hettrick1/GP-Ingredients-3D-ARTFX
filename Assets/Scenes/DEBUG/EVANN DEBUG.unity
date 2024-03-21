@@ -5261,7 +5261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -13.149963}
+  m_AnchoredPosition: {x: 171.65004, y: -5.33}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40365461
@@ -5284,16 +5284,56 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les enfants royaux, sans droit \xE0 l'alcool.\r\nNi la boisson des voisins,
-    c'est le protocole.\r\n\r\nLe barde du Roi veut trinquer avec entrain.\r\nAvec
-    la boisson du voisin de gauche, un souhait serein.\r\n\r\nLe magicien de la cour,
-    li\xE9 \xE0 la nature.\r\nCherche une boisson verte, source de sa stature.\r\n\r\nLe
-    Bouffon, joyeux en son r\xF4le singulier.\r\nSe contente d'alcool de basse-cour,
-    sans se r\xE9volter.\r\n\r\nR\xE9pondez \xE0 leurs besoins, avant l'appel du
-    festin.\r\nPrenez soin de leur \xE9moi, avant de calmer leur faim.\r\n"
+  m_text: 'An agreement made, their choices clear
+
+    No shared dish, a pact sincere
+
+    The
+    swordsman eschews organ cheer
+
+    Offal untouched, his palate austere
+
+    
+
+    The
+    jester obliged, his fate arranged
+
+    To share the King''s dish, not estranged
+
+    The
+    proud second royal child, distinct
+
+    Craves a dish unlike ancestral link
+
+    
+
+    The
+    King alone, his meal not shared
+
+    Except with the jester, camaraderie declared
+
+    Note
+    important: The Queen, ill for days
+
+    Serves light veggie fare, a healing
+    phase
+
+    
+
+    The bone-based dish, an odor vile
+
+    Must not reside by
+    a royal file
+
+    Adjacent not, to the regal scene
+
+    Preserving essence,
+    and spaces clean
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5317,8 +5357,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5328,10 +5368,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -11727,7 +11767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &288210296
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11783,7 +11823,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -13.149963}
+  m_AnchoredPosition: {x: 171.65004, y: -15.3}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290902703
@@ -11814,8 +11854,8 @@ MonoBehaviour:
     sans se r\xE9volter.\r\n\r\nR\xE9pondez \xE0 leurs besoins, avant l'appel du
     festin.\r\nPrenez soin de leur \xE9moi, avant de calmer leur faim.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11839,8 +11879,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11850,10 +11890,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -12759,6 +12799,8 @@ RectTransform:
   - {fileID: 1899556991}
   - {fileID: 288210296}
   - {fileID: 678294635}
+  - {fileID: 1086061813}
+  - {fileID: 721451366}
   m_Father: {fileID: 1698502697}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -24164,7 +24206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &678294635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24248,6 +24290,126 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9144917434236459188, guid: 09853b7f062375a438e1fcc026b8e7ba, type: 3}
   m_PrefabInstance: {fileID: 206954766}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &721451365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 721451366}
+  - component: {fileID: 721451369}
+  - component: {fileID: 721451368}
+  - component: {fileID: 721451367}
+  m_Layer: 0
+  m_Name: ->
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &721451366
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721451365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 420000148}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 171.2, y: -238}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &721451367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721451365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 721451368}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &721451368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721451365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &721451369
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721451365}
+  m_CullTransparentMesh: 1
 --- !u!1001 &723377717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40551,6 +40713,126 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1086061812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1086061813}
+  - component: {fileID: 1086061816}
+  - component: {fileID: 1086061815}
+  - component: {fileID: 1086061814}
+  m_Layer: 0
+  m_Name: <-
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1086061813
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086061812}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 420000148}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -176.2, y: -238}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1086061814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086061812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1086061815}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1086061815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086061812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1086061816
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086061812}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1092730362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51715,7 +51997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -13.149963}
+  m_AnchoredPosition: {x: 171.65004, y: 29.9}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254733893
@@ -51738,16 +52020,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les enfants royaux, sans droit \xE0 l'alcool.\r\nNi la boisson des voisins,
-    c'est le protocole.\r\n\r\nLe barde du Roi veut trinquer avec entrain.\r\nAvec
-    la boisson du voisin de gauche, un souhait serein.\r\n\r\nLe magicien de la cour,
-    li\xE9 \xE0 la nature.\r\nCherche une boisson verte, source de sa stature.\r\n\r\nLe
-    Bouffon, joyeux en son r\xF4le singulier.\r\nSe contente d'alcool de basse-cour,
-    sans se r\xE9volter.\r\n\r\nR\xE9pondez \xE0 leurs besoins, avant l'appel du
-    festin.\r\nPrenez soin de leur \xE9moi, avant de calmer leur faim.\r\n"
+  m_text: "\rDans leur accord, les gardes divergent sur le choix du met,\r\nL'\xE9p\xE9iste
+    refuse les abats, c'est son arr\xEAt.\r\nIls \xE9vitent le conflit en cette d\xE9cision
+    de choix,\r\nHarmonie pr\xE9serv\xE9e, sans fausse note, sans \xE9moi.\r\n\r\nLe
+    bouffon sourit, partageant le plat du roi avec entrain,\r\nPour lui, c'est un
+    honneur, un jeu sans fin.\r\nMais le second h\xE9ritier, fier et altier,\r\nPr\xE9f\xE8re
+    un plat diff\xE9rent de ses a\xEFeux, son choix est entier.\r\n\r\nDans la cour,
+    le roi seul, son plat ne partage pas,\r\nLe bouffon, oubli\xE9, n'est pas dans
+    ce tracas.\r\nLa reine, malade, n\xE9cessite un mets doux,\r\nDe l\xE9gumes de
+    la cour, pour apaiser son courroux.\r\n\r\nLe plat d'ossements exhale une senteur
+    infernale,\r\nPr\xE8s du plat royal, c'est une offense colossale.\r\nSon emplacement,
+    bien \xE0 l'\xE9cart, est vital,\r\nPour que la table royale demeure id\xE9ale.\r\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -51771,8 +52057,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -51782,10 +52068,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -56880,7 +57166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174.15, y: 34}
+  m_AnchoredPosition: {x: -174.15, y: 19.1}
   m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1295935499
@@ -56912,8 +57198,8 @@ MonoBehaviour:
     la lumi\xE8re qui s\xE8me.\r\n\r\nLes gardes, sobres, sans sucre dans leur verre.\r\nUne
     boisson simple, loin des exc\xE8s \xE0 faire taire.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -56937,8 +57223,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -56948,10 +57234,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -57083,7 +57369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -13.149963}
+  m_AnchoredPosition: {x: 171.65004, y: -47.8}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299973172
@@ -57106,16 +57392,43 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les enfants royaux, sans droit \xE0 l'alcool.\r\nNi la boisson des voisins,
-    c'est le protocole.\r\n\r\nLe barde du Roi veut trinquer avec entrain.\r\nAvec
-    la boisson du voisin de gauche, un souhait serein.\r\n\r\nLe magicien de la cour,
-    li\xE9 \xE0 la nature.\r\nCherche une boisson verte, source de sa stature.\r\n\r\nLe
-    Bouffon, joyeux en son r\xF4le singulier.\r\nSe contente d'alcool de basse-cour,
-    sans se r\xE9volter.\r\n\r\nR\xE9pondez \xE0 leurs besoins, avant l'appel du
-    festin.\r\nPrenez soin de leur \xE9moi, avant de calmer leur faim.\r\n"
+  m_text: 'The royal kids, alcool not allowed
+
+    No neighbor''s drink will be
+    engaged
+
+    
+
+    The King''s bard wishes, with cheer
+
+    A left-hand neighbor''s
+    drink, so near
+
+    
+
+    The court magician, nature''s sprite
+
+    Desires
+    a beverage, green and light
+
+    
+
+    The Jester laughs, with spirits plain
+
+    Content
+    with barnyard liquor''s reign
+
+    
+
+    Answer their needs before their hunger''s
+    plea.
+
+    And set their spirits free.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -57139,8 +57452,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -57150,10 +57463,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -78546,7 +78859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174.15, y: 34}
+  m_AnchoredPosition: {x: -174.15, y: -13.5}
   m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620688068
@@ -78569,17 +78882,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "L'heure du festin du Roi va bient\xF4t s'annoncer.\r\nTous les convives
-    attendent, bien install\xE9s.\r\n\r\nServez les bons repas aux bons couverts.\r\nCar
-    le Roi f\xEAte son anniversaire.\r\n\r\nServez les breuvages, que la f\xEAte
-    commence.\r\nPuis passez aux chaudrons, que l'ambiance s'intensifie en cadence.\r\n\r\nLe
-    pichet royal, humble et primordial.\r\nVerse aux convives, c\u2019est trivial.\r\n\r\nLe
-    Roi et la Reine, pour leur joie supr\xEAme.\r\nR\xE9clament le vin royal, dans
-    la lumi\xE8re qui s\xE8me.\r\n\r\nLes gardes, sobres, sans sucre dans leur verre.\r\nUne
-    boisson simple, loin des exc\xE8s \xE0 faire taire.\r"
+  m_text: "The King's mealtime is drawing near.\r\nAll the guests are seated, full
+    of cheer.\r\n\r\nServe the feasts with utmost grace.\r\nFor it's the King's birthday,
+    a joyous embrace.\r\n\r\nStart with the drinks, a royal affair.\r\nBefore moving
+    on to pots and ware.\r\n\r\nThe royal pitcher stands fine.\r\nPouring drinks
+    for guests, a simple line.\r\n\r\nThe King and Queen, a royal pair\r\nSeek the
+    wine, beyond compare\r\n\r\nThe guards declare, with strict control\r\nNo alcohol,
+    no sugared bowl\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -78603,8 +78915,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -78614,10 +78926,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -90341,7 +90653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174.15, y: 34}
+  m_AnchoredPosition: {x: -174.15, y: 25.47}
   m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878075582
@@ -90364,17 +90676,52 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "L'heure du festin du Roi va bient\xF4t s'annoncer.\r\nTous les convives
-    attendent, bien install\xE9s.\r\n\r\nServez les bons repas aux bons couverts.\r\nCar
-    le Roi f\xEAte son anniversaire.\r\n\r\nServez les breuvages, que la f\xEAte
-    commence.\r\nPuis passez aux chaudrons, que l'ambiance s'intensifie en cadence.\r\n\r\nLe
-    pichet royal, humble et primordial.\r\nVerse aux convives, c\u2019est trivial.\r\n\r\nLe
-    Roi et la Reine, pour leur joie supr\xEAme.\r\nR\xE9clament le vin royal, dans
-    la lumi\xE8re qui s\xE8me.\r\n\r\nLes gardes, sobres, sans sucre dans leur verre.\r\nUne
-    boisson simple, loin des exc\xE8s \xE0 faire taire.\r"
+  m_text: 'The meal can now commence, but filling glasses won''t suffice,
+
+    With
+    the bowl in hand, bring forth their dish, but which one shall entice?
+
+    
+
+    Advocating
+    diversity, the royal kin
+
+    Wishes to taste every dish, each within
+
+    Among
+    family members, a culinary quest
+
+    A shared table, a banquet zest
+
+    
+
+    The
+    ailing child seeks a marrow cure
+
+    Suggested by the wizard, whose magic is
+    pure
+
+    He must taste it first, to ensure
+
+    Young Emilien is safe, his
+    health secure
+
+    
+
+    The bard desires what the Queen wears on her feet
+
+    In
+    espadrilles, a taste to meet
+
+    The guards, cautious, their preferences discreet
+
+    Avoid
+    what the King and wizard eat
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -90398,8 +90745,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -90409,10 +90756,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -90661,7 +91008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1899556991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -91341,7 +91688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174.15, y: 34}
+  m_AnchoredPosition: {x: -174.15, y: 12}
   m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013257726
@@ -91364,17 +91711,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "L'heure du festin du Roi va bient\xF4t s'annoncer.\r\nTous les convives
-    attendent, bien install\xE9s.\r\n\r\nServez les bons repas aux bons couverts.\r\nCar
-    le Roi f\xEAte son anniversaire.\r\n\r\nServez les breuvages, que la f\xEAte
-    commence.\r\nPuis passez aux chaudrons, que l'ambiance s'intensifie en cadence.\r\n\r\nLe
-    pichet royal, humble et primordial.\r\nVerse aux convives, c\u2019est trivial.\r\n\r\nLe
-    Roi et la Reine, pour leur joie supr\xEAme.\r\nR\xE9clament le vin royal, dans
-    la lumi\xE8re qui s\xE8me.\r\n\r\nLes gardes, sobres, sans sucre dans leur verre.\r\nUne
-    boisson simple, loin des exc\xE8s \xE0 faire taire.\r"
+  m_text: "Le repas sonne, l'heure est venue,\r\nVerres pleins, mais la faim est
+    accrue.\r\n\r\nL'\xE9cuelle en main, un choix s'impose,\r\nQuel plat d\xE9licieux
+    en impose ?\r\n\r\nPr\xF4nant la diversit\xE9, la royaut\xE9 s'\xE9veille,\r\nGo\xFBter
+    tous les plats, souhait de la famille pareille.\r\nEntre les membres, les mets
+    r\xE9partis avec z\xE8le,\r\nDans l'unit\xE9, leur app\xE9tit s'entrelace et
+    s'emm\xEAle.\r\n\r\nL'enfant souffrant prend un breuvage divin,\r\nDe moelle
+    osseuse, conseill\xE9 par le devin.\r\nLe magicien, pour ne pas briser le lien,\r\nGo\xFBte
+    \xE9galement, pr\xE9servant le destin d'Emilien. \r\n\r\nDans l'ombre du ch\xE2teau,
+    le barde \xE9pris de merveilles,\r\nEsp\xE8re un festin, partageant les songes
+    de la reine en dentelles.\r\nPendant que les gardes, prudents et aux pas mesur\xE9s,\r\n\xC9vitent
+    les mets du roi et du mage, sages et effac\xE9s.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
+  m_sharedMaterial: {fileID: 6544048046848996299, guid: 75b092f7bd2c05a4ba49e6cb833d05b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -91398,8 +91748,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -91409,10 +91759,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 8
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -36
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -92148,6 +92498,26 @@ PrefabInstance:
       propertyPath: questBook
       value: 
       objectReference: {fileID: 1698502696}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: questsText.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: questsText.Array.data[0]
+      value: 
+      objectReference: {fileID: 468117281}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: questsText.Array.data[1]
+      value: 
+      objectReference: {fileID: 1899556990}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: questsText.Array.data[2]
+      value: 
+      objectReference: {fileID: 288210295}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: questsText.Array.data[3]
+      value: 
+      objectReference: {fileID: 678294634}
     - target: {fileID: 8933159213764817856, guid: 837b218772886ca41a203cead275496e, type: 3}
       propertyPath: m_Name
       value: QuestBookTrigger

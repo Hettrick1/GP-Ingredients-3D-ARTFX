@@ -17,7 +17,7 @@ public class DQuestBook : Interactive
 
     DPlates[] plates;
 
-    GameObject[] questsText;
+    public GameObject[] questsText;
 
     private void Start()
     {
