@@ -5261,7 +5261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -5.33}
+  m_AnchoredPosition: {x: 171.65004, y: 13}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40365461
@@ -5293,7 +5293,7 @@ MonoBehaviour:
 
     Offal untouched, his palate austere
 
-    
+
 
     The
     jester obliged, his fate arranged
@@ -5305,7 +5305,7 @@ MonoBehaviour:
 
     Craves a dish unlike ancestral link
 
-    
+
 
     The
     King alone, his meal not shared
@@ -5315,20 +5315,19 @@ MonoBehaviour:
     Note
     important: The Queen, ill for days
 
-    Serves light veggie fare, a healing
-    phase
+    Serves light veggie fare, a healing phase
 
-    
 
-    The bone-based dish, an odor vile
 
-    Must not reside by
-    a royal file
+    The
+    bone-based dish, an odor vile
 
-    Adjacent not, to the regal scene
+    Must not reside by a royal file
 
-    Preserving essence,
-    and spaces clean
+    Adjacent
+    not, to the regal scene
+
+    Preserving essence, and spaces clean
 
 '
   m_isRightToLeft: 0
@@ -5357,8 +5356,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5369,9 +5368,9 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 8
-  m_lineSpacing: 0
+  m_lineSpacing: 4.4
   m_lineSpacingMax: 0
-  m_paragraphSpacing: -36
+  m_paragraphSpacing: -46
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -11823,7 +11822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -15.3}
+  m_AnchoredPosition: {x: 171.65004, y: -6.4}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290902703
@@ -18108,7 +18107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &468117282
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24371,7 +24370,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 721451368}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1698502698}
+        m_TargetAssemblyTypeName: DQuestBookManager, Assembly-CSharp
+        m_MethodName: TurnPageRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &721451368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40731,7 +40742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1086061813
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40794,7 +40805,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1086061815}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1698502698}
+        m_TargetAssemblyTypeName: DQuestBookManager, Assembly-CSharp
+        m_MethodName: TurnPageLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1086061815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57369,7 +57392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.65004, y: -47.8}
+  m_AnchoredPosition: {x: 171.65004, y: -6}
   m_SizeDelta: {x: 340, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299973172
@@ -57394,34 +57417,33 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'The royal kids, alcool not allowed
 
-    No neighbor''s drink will be
-    engaged
+    No neighbor''s drink will be engaged
 
-    
 
-    The King''s bard wishes, with cheer
 
-    A left-hand neighbor''s
-    drink, so near
+    The
+    King''s bard wishes, with cheer
 
-    
+    A left-hand neighbor''s drink, so near
 
-    The court magician, nature''s sprite
 
-    Desires
-    a beverage, green and light
 
-    
+    The
+    court magician, nature''s sprite
 
-    The Jester laughs, with spirits plain
+    Desires a beverage, green and light
 
-    Content
-    with barnyard liquor''s reign
 
-    
 
-    Answer their needs before their hunger''s
-    plea.
+    The
+    Jester laughs, with spirits plain
+
+    Content with barnyard liquor''s reign
+
+
+
+    Answer
+    their needs before their hunger''s plea.
 
     And set their spirits free.
 
@@ -78859,7 +78881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174.15, y: -13.5}
+  m_AnchoredPosition: {x: -174.15, y: -11}
   m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620688068
@@ -84396,13 +84418,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1698502697}
+  - component: {fileID: 1698502698}
   m_Layer: 0
   m_Name: D_QuestBook
   m_TagString: QuestBook
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1698502697
 RectTransform:
   m_ObjectHideFlags: 0
@@ -84423,6 +84446,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1698502698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698502696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c8d31b465cb2944a7dd7e1530a894a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questsText:
+  - {fileID: 468117281}
+  - {fileID: 1899556990}
+  - {fileID: 288210295}
+  - {fileID: 678294634}
+  buttons:
+  - {fileID: 1086061812}
+  - {fileID: 721451365}
 --- !u!1 &1701518316
 GameObject:
   m_ObjectHideFlags: 0
@@ -90653,7 +90696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -174.15, y: 25.47}
+  m_AnchoredPosition: {x: -174.15, y: 30}
   m_SizeDelta: {x: 335, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878075582
@@ -90681,7 +90724,7 @@ MonoBehaviour:
     With
     the bowl in hand, bring forth their dish, but which one shall entice?
 
-    
+
 
     Advocating
     diversity, the royal kin
@@ -90693,7 +90736,7 @@ MonoBehaviour:
 
     A shared table, a banquet zest
 
-    
+
 
     The
     ailing child seeks a marrow cure
@@ -90703,15 +90746,15 @@ MonoBehaviour:
 
     He must taste it first, to ensure
 
-    Young Emilien is safe, his
-    health secure
+    Young Emilien is safe, his health
+    secure
 
-    
+
 
     The bard desires what the Queen wears on her feet
 
-    In
-    espadrilles, a taste to meet
+    In espadrilles,
+    a taste to meet
 
     The guards, cautious, their preferences discreet
 
@@ -90745,8 +90788,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -90757,9 +90800,9 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 8
-  m_lineSpacing: 0
+  m_lineSpacing: 4.4
   m_lineSpacingMax: 0
-  m_paragraphSpacing: -36
+  m_paragraphSpacing: -46
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4

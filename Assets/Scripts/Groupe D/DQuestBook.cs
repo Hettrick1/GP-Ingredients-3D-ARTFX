@@ -63,13 +63,31 @@ public class DQuestBook : Interactive
         if (!isShowing)
         {
             questBook.SetActive(true);
+            if (!isSoup)
+            {
+                questsText[0].SetActive(true);
+            }
+            else
+            {
+                questsText[2].SetActive(true);
+            }
             isShowing = true;
         }
         else
         {
             questBook.SetActive(false);
+            for(int i = 0; i < questsText.Length; i++)
+            {
+                questsText[i].SetActive(false);
+            }
+
             isShowing = false;
         }
+    }
+
+    public bool GetIsSoup()
+    {
+        return isSoup;
     }
 }
 
