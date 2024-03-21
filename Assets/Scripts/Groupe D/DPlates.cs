@@ -25,10 +25,12 @@ public class DPlates : Interactive
         if(soupIndex == (int)soupType)
         {
             isSameSoup = true;
+            DQuestBook.instance.AddGoodObect(1);
         }
         else
         {
             isSameSoup = false;
+            DQuestBook.instance.AddGoodObect(-1);
         }
     }
     public bool GetIsSameSoup() { return isSameSoup; }
