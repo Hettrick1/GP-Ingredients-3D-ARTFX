@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DBowl : MonoBehaviour
 {
-    private int soupIndex;
+    private int soupIndex = -1;
 
     public void SetSoup(int _soupIndex)
     {

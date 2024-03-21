@@ -16,13 +16,9 @@ public class DPlates : Interactive
     }
     public void SetSoup(int soupIndex)
     {
-        for (int i = 0; i < 5; i++)
-        {
-            transform.GetChild(i).gameObject.SetActive(false);
-        }
+        DBowl bowl = FindObjectOfType<DBowl>();
 
-        transform.GetChild(soupIndex + 1).gameObject.SetActive(true);
-        if(soupIndex == (int)soupType)
+        if (soupIndex == (int)soupType)
         {
             isSameSoup = true;
             DQuestBook.instance.AddGoodObect(1);
@@ -32,6 +28,14 @@ public class DPlates : Interactive
             isSameSoup = false;
             DQuestBook.instance.AddGoodObect(-1);
         }
+        bowl.SetSoup(-1);
+        for (int i = 0; i < 5; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+
+        transform.GetChild(soupIndex + 1).gameObject.SetActive(true);
+
     }
     public bool GetIsSameSoup() { return isSameSoup; }
 }
