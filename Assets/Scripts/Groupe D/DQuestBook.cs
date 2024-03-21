@@ -8,7 +8,7 @@ public class DQuestBook : Interactive
 {
     [SerializeField] private GameObject questBook;
 
-    bool isShowing, isSoup;
+    public bool isShowing, isSoup;
 
     public static DQuestBook instance;
 

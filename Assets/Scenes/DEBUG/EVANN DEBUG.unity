@@ -92538,9 +92538,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: isSoup
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
       propertyPath: questBook
       value: 
       objectReference: {fileID: 1698502696}
+    - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
+      propertyPath: waitForObject
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3518826012618228866, guid: 837b218772886ca41a203cead275496e, type: 3}
       propertyPath: questsText.Array.size
       value: 4

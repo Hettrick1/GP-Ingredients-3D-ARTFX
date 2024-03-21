@@ -7,10 +7,6 @@ public class DQuestBookManager : MonoBehaviour
     public GameObject[] questsText;
 
     public GameObject[] buttons;
-    private void Update()
-    {
-
-    }
     public void TurnPageRight()
     {
         if (!DQuestBook.instance.GetIsSoup())
