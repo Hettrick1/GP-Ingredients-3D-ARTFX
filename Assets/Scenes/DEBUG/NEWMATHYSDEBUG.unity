@@ -17896,6 +17896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_Open (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4369247199797357114, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
+      propertyPath: m_TagString
+      value: Interactive
+      objectReference: {fileID: 0}
     - target: {fileID: 4369247199797523994, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.07700033
@@ -17942,7 +17946,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4369247199797523994, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 585374305}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4369247199797357114, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2058024125}
+    - targetCorrespondingSourceObject: {fileID: 4369247199797357114, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2058024124}
   m_SourcePrefab: {fileID: 100100000, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
 --- !u!4 &425870883 stripped
 Transform:
@@ -31098,6 +31108,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: onlyOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
       propertyPath: drinkIndex
       value: 1
       objectReference: {fileID: 0}
@@ -31105,9 +31119,25 @@ PrefabInstance:
       propertyPath: waitForObject
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: requiredItems.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: requiredItems.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d9426419950c2994986879f74fc8cc1c, type: 2}
+    - target: {fileID: 6063775921760671225, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9184465179785487095, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
       propertyPath: m_Name
       value: D_Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184465179785487095, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: m_TagString
+      value: Interactive
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38149,8 +38179,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.47090766
-  m_Center: {x: -0.0000005740809, y: 0.46748242, z: -0.0000007104103}
+  m_Radius: 1.32
+  m_Center: {x: 0.35, y: 1.26, z: -0.0000007104103}
 --- !u!1 &1102270214
 GameObject:
   m_ObjectHideFlags: 0
@@ -75207,15 +75237,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6299300708754610075, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9
+      value: 0.76801884
       objectReference: {fileID: 0}
     - target: {fileID: 6299300708754610075, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.63
+      value: -7.935404
       objectReference: {fileID: 0}
     - target: {fileID: 6299300708754610075, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.29
+      value: 6.580208
       objectReference: {fileID: 0}
     - target: {fileID: 6299300708754610075, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -83085,6 +83115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_Closed
       objectReference: {fileID: 0}
+    - target: {fileID: 2317576605586580694, guid: 5adaedd4c0081614da171fecdf6bbd37, type: 3}
+      propertyPath: m_TagString
+      value: Interactive
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84964,6 +84998,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 977136844864435615, guid: 790cbaa43a4b19c4a964617119f8d796, type: 3}
   m_PrefabInstance: {fileID: 2016449086}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2058024123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4369247199797357114, guid: 591bed4d8c69b824c81e7261d794d9f5, type: 3}
+  m_PrefabInstance: {fileID: 425870882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &2058024124
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058024123}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.43
+  m_Center: {x: -0.41, y: 0.45801634, z: -0.00000012502977}
+--- !u!114 &2058024125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058024123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e45f80528c3d24ab944afdb867f044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  onlyOnce: 0
+  requiredItems:
+  - {fileID: 11400000, guid: d9426419950c2994986879f74fc8cc1c, type: 2}
+  waitForObject: 1
+  drinkIndex: 0
 --- !u!1 &2060808412
 GameObject:
   m_ObjectHideFlags: 0
@@ -85591,12 +85669,32 @@ PrefabInstance:
       value: 80.355
       objectReference: {fileID: 0}
     - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: onlyOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
       propertyPath: waitForObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: requiredItems.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687423451046110441, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: requiredItems.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d9426419950c2994986879f74fc8cc1c, type: 2}
+    - target: {fileID: 6063775921760671225, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9184465179785487095, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
       propertyPath: m_Name
       value: D_Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184465179785487095, guid: 0f17b178cfafc0943b1fc23e601fd833, type: 3}
+      propertyPath: m_TagString
+      value: Interactive
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
