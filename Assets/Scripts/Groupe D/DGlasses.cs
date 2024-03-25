@@ -5,6 +5,13 @@ public class DGlasses : Interactive
     bool isSameDrink;
 
     [SerializeField] private D_Drink drinkType;
+    [SerializeField] private bool fancyGlass;
+
+    private void Start()
+    {
+        transform.GetChild(fancyGlass ? 1 : 0).gameObject.SetActive(true);
+        transform.GetChild(fancyGlass ? 0 : 1).gameObject.SetActive(false);
+    }
 
     public override void OnInteraction()
     {
@@ -24,8 +31,10 @@ public class DGlasses : Interactive
             isSameDrink = false;
         }
         jug.SetDrink(-1);
-        
-        var mat = transform.GetChild(0).GetComponent<MeshRenderer>().material;
+
+
+
+        var mat = transform.GetChild(fancyGlass ? 1 : 0).GetComponent<MeshRenderer>().material;
         Color color = mat.color;
         color.a = 0.4f;
         mat.color = color;
