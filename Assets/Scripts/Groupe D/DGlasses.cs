@@ -23,7 +23,26 @@ public class DGlasses : Interactive
     }
     public void SetDrink(int drinkIndex)
     {
+        var mat = transform.GetChild(fancyGlass ? 1 : 0).GetChild(0).GetComponent<MeshRenderer>().material;
+        Color color = mat.color;
+        color.a = 0.4f;
+        mat.color = color;
+        switch (drinkIndex)
+        {
+            case 0: //eau
 
+                mat.color = Color.blue;
+                break;
+            case 1: //vin
+                mat.color = Color.red;
+                break;
+            case 2: //bière
+                mat.color = Color.yellow;
+                break;
+            case 3: //jdf
+                mat.color = Color.green;
+                break;
+        }
         if (drinkIndex == (int)drinkType)
         {
             isSameDrink = true;
@@ -34,29 +53,7 @@ public class DGlasses : Interactive
             isSameDrink = false;
             DQuestBook.instance.AddGoodObect(index, false);
         }
-
-
-        var mat = transform.GetChild(fancyGlass ? 1 : 0).GetChild(0).GetComponent<MeshRenderer>().material;
-        Color color = mat.color;
-        color.a = 0.4f;
-        mat.color = color;
-        switch (drinkIndex)
-        {
-            case 0: //eau
-                
-                mat.color = Color.blue;
-                return;
-            case 1: //vin
-                mat.color = Color.red;
-                return;
-            case 2: //bière
-                mat.color = Color.yellow;
-                return;
-            case 3: //jdf
-                mat.color = Color.green;
-                return;
-        }
-
+        
     }
     public bool GetIsSameSoup() { return isSameDrink; }
 }

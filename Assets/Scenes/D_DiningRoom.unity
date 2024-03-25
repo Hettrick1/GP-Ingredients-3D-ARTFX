@@ -5790,6 +5790,11 @@ Transform:
   - {fileID: 1701518317}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100698503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5345132849887860768, guid: 54b9af11a42409f45a43234c34d32a47, type: 3}
+  m_PrefabInstance: {fileID: 1913482593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &100981023
 GameObject:
   m_ObjectHideFlags: 0
@@ -12349,6 +12354,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 426562382142317152, guid: 320aa6bc668bba24da807d96e1466625, type: 3}
+      propertyPath: jug
+      value: 
+      objectReference: {fileID: 11400000, guid: d9426419950c2994986879f74fc8cc1c, type: 2}
+    - target: {fileID: 426562382142317152, guid: 320aa6bc668bba24da807d96e1466625, type: 3}
+      propertyPath: bowl
+      value: 
+      objectReference: {fileID: 100698503}
+    - target: {fileID: 426562382142317152, guid: 320aa6bc668bba24da807d96e1466625, type: 3}
       propertyPath: questBook
       value: 
       objectReference: {fileID: 548671601}
@@ -12411,6 +12424,10 @@ PrefabInstance:
     - target: {fileID: 3657753945861470475, guid: 320aa6bc668bba24da807d96e1466625, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578200228997737725, guid: 320aa6bc668bba24da807d96e1466625, type: 3}
+      propertyPath: m_Radius
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 6325728760905056193, guid: 320aa6bc668bba24da807d96e1466625, type: 3}
       propertyPath: m_Name
@@ -18044,6 +18061,10 @@ PrefabInstance:
     - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
       propertyPath: index
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
+      propertyPath: drinkType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
       propertyPath: fancyGlass
@@ -48820,7 +48841,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 2
+  m_Radius: 1.45
   m_Center: {x: -0.0000005740809, y: 0.46748242, z: -0.0000007104103}
 --- !u!1 &1105025864
 GameObject:
@@ -54245,7 +54266,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 1.61
+  m_Radius: 1.12
   m_Center: {x: 0.35, y: 0.45801634, z: -0.00000012502977}
 --- !u!4 &1174933501 stripped
 Transform:
@@ -54383,6 +54404,10 @@ PrefabInstance:
     - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
       propertyPath: index
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
+      propertyPath: drinkType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
       propertyPath: fancyGlass
@@ -97374,6 +97399,10 @@ PrefabInstance:
     - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
       propertyPath: index
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
+      propertyPath: drinkType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
       propertyPath: fancyGlass

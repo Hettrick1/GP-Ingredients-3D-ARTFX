@@ -7,14 +7,13 @@ using UnityEngine.InputSystem;
 public class DQuestBook : Interactive
 {
     [SerializeField] private GameObject questBook;
+    [SerializeField] private GameObject bowl;
+    [SerializeField] private KeyItemData jug;
 
     private bool isShowing, isSoup;
     private bool[] isGood = {false, false, false, false, false, false, false, false, false };
 
     public static DQuestBook instance;
-
-    int numberOfObjects = 10;
-    int nbreOfObjects;
 
     DPlates[] plates;
     DGlasses[] glasses;
@@ -26,7 +25,6 @@ public class DQuestBook : Interactive
         instance = this;
         plates = GameObject.FindObjectsOfType<DPlates>();
         glasses = GameObject.FindObjectsOfType<DGlasses>();
-        var bowl = FindObjectOfType<DBowl>();
         bowl.gameObject.SetActive(false);
 
         foreach (DPlates dp in plates)
@@ -42,8 +40,8 @@ public class DQuestBook : Interactive
     public void AddGoodObect(int index, bool _isGood)
     {
         isGood[index] = _isGood;
-
         print(index + " : " + _isGood);
+
         if (isValid())
         {
             if (isSoup)
@@ -56,8 +54,9 @@ public class DQuestBook : Interactive
             }
             else
             {
-                var bowl = FindObjectOfType<DBowl>();
                 bowl.gameObject.SetActive(true);
+                isSoup = true;
+                Inventory.Instance.RemoveFromInventory(jug);
                 GetComponent<AudioSource>().Play();
                 foreach (DPlates dp in plates)
                 {
