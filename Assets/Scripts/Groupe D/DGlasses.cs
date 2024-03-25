@@ -8,10 +8,10 @@ public class DGlasses : Interactive
 
     public override void OnInteraction()
     {
-        DBowl bowl = FindObjectOfType<DBowl>();
-        SetSoup(bowl.GetSoupIndex());
+        DJug glass = FindObjectOfType<DJug>();
+        SetDrink(glass.GetDrinkIndex());
     }
-    public void SetSoup(int drinkIndex)
+    public void SetDrink(int drinkIndex)
     {
         DJug jug = FindObjectOfType<DJug>();
 
@@ -24,12 +24,27 @@ public class DGlasses : Interactive
             isSameDrink = false;
         }
         jug.SetDrink(-1);
-        for (int i = 0; i < 5; i++)
+        
+        var mat = transform.GetChild(0).GetComponent<MeshRenderer>().material;
+        Color color = mat.color;
+        color.a = 0.4f;
+        mat.color = color;
+        switch (drinkIndex)
         {
-            transform.GetChild(i).gameObject.SetActive(false);
+            case 0: //eau
+                
+                mat.color = Color.blue;
+                return;
+            case 1: //vin
+                mat.color = Color.red;
+                return;
+            case 2: //bière
+                mat.color = Color.yellow;
+                return;
+            case 3: //jdf
+                mat.color = Color.green;
+                return;
         }
-
-        transform.GetChild(drinkIndex + 1).gameObject.SetActive(true);
 
     }
     public bool GetIsSameSoup() { return isSameDrink; }

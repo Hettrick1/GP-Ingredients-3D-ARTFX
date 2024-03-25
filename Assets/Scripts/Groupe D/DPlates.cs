@@ -6,18 +6,16 @@ using UnityEngine;
 public class DPlates : Interactive
 {
     bool isSameSoup;
-
+    DBowl bowl;
     [SerializeField] private D_SoupType soupType;
 
     public override void OnInteraction()
     {
-        DBowl bowl = FindObjectOfType<DBowl>();
+        bowl = FindObjectOfType<DBowl>();
         SetSoup(bowl.GetSoupIndex());
     }
     public void SetSoup(int soupIndex)
     {
-        DBowl bowl = FindObjectOfType<DBowl>();
-
         if (soupIndex == (int)soupType)
         {
             isSameSoup = true;
