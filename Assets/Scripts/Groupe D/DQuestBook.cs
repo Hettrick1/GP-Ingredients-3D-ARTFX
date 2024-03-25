@@ -16,6 +16,7 @@ public class DQuestBook : Interactive
     int nbreOfObjects;
 
     DPlates[] plates;
+    DGlasses[] glasses;
 
     public GameObject[] questsText;
 
@@ -23,9 +24,14 @@ public class DQuestBook : Interactive
     {
         instance = this;
         plates = GameObject.FindObjectsOfType<DPlates>();
+        glasses = GameObject.FindObjectsOfType<DGlasses>();
         foreach (DPlates dp in plates)
         {
             dp.gameObject.GetComponent<SphereCollider>().enabled = false;
+        }
+        foreach (DGlasses dg in glasses)
+        {
+            dg.gameObject.GetComponent<SphereCollider>().enabled = false;
         }
     }
 
@@ -35,7 +41,7 @@ public class DQuestBook : Interactive
         {
             nbreOfObjects += AddScore;
         }
-        else if (nbreOfObjects < numberOfObjects)
+        if (nbreOfObjects < numberOfObjects)
         {
             if (isSoup)
             {
@@ -48,12 +54,15 @@ public class DQuestBook : Interactive
             else
             {
                 GetComponent<AudioSource>().Play();
-
-
                 foreach (DPlates dp in plates)
                 {
                     dp.gameObject.GetComponent<SphereCollider>().enabled = true;
                 }
+                foreach (DGlasses dg in glasses)
+                {
+                    dg.gameObject.GetComponent<SphereCollider>().enabled = false;
+                }
+                numberOfObjects = 10;
             }
         }
     }
