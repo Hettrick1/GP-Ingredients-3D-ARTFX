@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 836011417308865145}
   - component: {fileID: 3269841802278667793}
   m_Layer: 0
-  m_Name: DJUG
+  m_Name: D_Jug
   m_TagString: Pickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
