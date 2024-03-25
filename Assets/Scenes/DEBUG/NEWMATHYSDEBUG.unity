@@ -85546,10 +85546,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043177395601078773, guid: 8a6d47f6a1f61b046935764ae6a495ea, type: 3}
-      propertyPath: fancyGlass
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

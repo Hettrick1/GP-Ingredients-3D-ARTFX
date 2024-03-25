@@ -20,7 +20,6 @@ public class DGlasses : Interactive
     }
     public void SetDrink(int drinkIndex)
     {
-        DJug jug = FindObjectOfType<DJug>();
 
         if (drinkIndex == (int)drinkType)
         {
@@ -32,11 +31,8 @@ public class DGlasses : Interactive
             isSameDrink = false;
             DQuestBook.instance.AddGoodObect(-1);
         }
-        jug.SetDrink(-1);
 
-
-
-        var mat = transform.GetChild(fancyGlass ? 1 : 0).GetComponent<MeshRenderer>().material;
+        var mat = transform.GetChild(fancyGlass ? 1 : 0).GetChild(0).GetComponent<MeshRenderer>().material;
         Color color = mat.color;
         color.a = 0.4f;
         mat.color = color;

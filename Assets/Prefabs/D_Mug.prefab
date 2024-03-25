@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2972468752477760770}
   m_Layer: 0
   m_Name: D_Mug
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,8 +52,8 @@ MonoBehaviour:
   requiredItems:
   - {fileID: 11400000, guid: d9426419950c2994986879f74fc8cc1c, type: 2}
   waitForObject: 1
-  drinkType: 0
-  fancyGlass: 0
+  drinkType: 3
+  fancyGlass: 1
 --- !u!135 &2972468752477760770
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -31,7 +31,7 @@ public class DQuestBook : Interactive
         }
         foreach (DGlasses dg in glasses)
         {
-            dg.gameObject.GetComponent<SphereCollider>().enabled = false;
+            dg.gameObject.GetComponent<SphereCollider>().enabled = true;
         }
     }
 
@@ -39,9 +39,18 @@ public class DQuestBook : Interactive
     {
         if (nbreOfObjects < numberOfObjects - 1)
         {
-            nbreOfObjects += AddScore;
+            if(AddScore < 0 && nbreOfObjects > 0)
+            {
+                nbreOfObjects += AddScore;
+            }
+            else if (AddScore > 0)
+            {
+                nbreOfObjects += AddScore;
+            }
+
+            print(nbreOfObjects);
         }
-        if (nbreOfObjects < numberOfObjects)
+        if (nbreOfObjects == numberOfObjects)
         {
             if (isSoup)
             {
@@ -62,7 +71,7 @@ public class DQuestBook : Interactive
                 {
                     dg.gameObject.GetComponent<SphereCollider>().enabled = false;
                 }
-                numberOfObjects = 10;
+                nbreOfObjects = 0;
             }
         }
     }
