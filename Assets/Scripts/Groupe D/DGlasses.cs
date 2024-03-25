@@ -18,10 +18,12 @@ public class DGlasses : Interactive
         if (drinkIndex == (int)drinkType)
         {
             isSameDrink = true;
+            DQuestBook.instance.AddGoodObect(1);
         }
         else
         {
             isSameDrink = false;
+            DQuestBook.instance.AddGoodObect(-1);
         }
         jug.SetDrink(-1);
         
