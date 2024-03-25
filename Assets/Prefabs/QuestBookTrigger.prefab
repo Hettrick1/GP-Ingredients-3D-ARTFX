@@ -51,6 +51,13 @@ MonoBehaviour:
   requiredItems: []
   waitForObject: 0
   questBook: {fileID: 0}
+  isShowing: 0
+  isSoup: 1
+  questsText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!135 &7230708152955232849
 SphereCollider:
   m_ObjectHideFlags: 0
