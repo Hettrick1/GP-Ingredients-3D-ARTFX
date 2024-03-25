@@ -8,6 +8,7 @@ public class DPlates : Interactive
     bool isSameSoup;
     DBowl bowl;
     [SerializeField] private D_SoupType soupType;
+    [SerializeField] private int index;
 
     public override void OnInteraction()
     {
@@ -19,12 +20,12 @@ public class DPlates : Interactive
         if (soupIndex == (int)soupType)
         {
             isSameSoup = true;
-            DQuestBook.instance.AddGoodObect(1);
+            DQuestBook.instance.AddGoodObect(index, true);
         }
         else
         {
             isSameSoup = false;
-            DQuestBook.instance.AddGoodObect(-1);
+            DQuestBook.instance.AddGoodObect(index, false);
         }
         bowl.SetSoup(-1);
         for (int i = 0; i < 5; i++)

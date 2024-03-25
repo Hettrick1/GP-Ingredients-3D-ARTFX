@@ -1,3 +1,5 @@
+using System;
+using System.Reflection;
 using UnityEngine;
 
 public class DGlasses : Interactive
@@ -6,6 +8,7 @@ public class DGlasses : Interactive
 
     [SerializeField] private D_Drink drinkType;
     [SerializeField] private bool fancyGlass;
+    [SerializeField] private int index;
 
     private void Start()
     {
@@ -24,13 +27,14 @@ public class DGlasses : Interactive
         if (drinkIndex == (int)drinkType)
         {
             isSameDrink = true;
-            DQuestBook.instance.AddGoodObect(1);
+            DQuestBook.instance.AddGoodObect(index, true);
         }
         else
         {
             isSameDrink = false;
-            DQuestBook.instance.AddGoodObect(-1);
+            DQuestBook.instance.AddGoodObect(index, false);
         }
+
 
         var mat = transform.GetChild(fancyGlass ? 1 : 0).GetChild(0).GetComponent<MeshRenderer>().material;
         Color color = mat.color;

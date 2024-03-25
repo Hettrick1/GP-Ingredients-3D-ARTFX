@@ -8,7 +8,8 @@ public class DQuestBook : Interactive
 {
     [SerializeField] private GameObject questBook;
 
-    public bool isShowing, isSoup;
+    private bool isShowing, isSoup;
+    private bool[] isGood = {false, false, false, false, false, false, false, false, false };
 
     public static DQuestBook instance;
 
@@ -25,6 +26,9 @@ public class DQuestBook : Interactive
         instance = this;
         plates = GameObject.FindObjectsOfType<DPlates>();
         glasses = GameObject.FindObjectsOfType<DGlasses>();
+        var bowl = FindObjectOfType<DBowl>();
+        bowl.gameObject.SetActive(false);
+
         foreach (DPlates dp in plates)
         {
             dp.gameObject.GetComponent<SphereCollider>().enabled = false;
@@ -35,22 +39,12 @@ public class DQuestBook : Interactive
         }
     }
 
-    public void AddGoodObect(int AddScore)
+    public void AddGoodObect(int index, bool _isGood)
     {
-        if (nbreOfObjects < numberOfObjects - 1)
-        {
-            if(AddScore < 0 && nbreOfObjects > 0)
-            {
-                nbreOfObjects += AddScore;
-            }
-            else if (AddScore > 0)
-            {
-                nbreOfObjects += AddScore;
-            }
+        isGood[index] = _isGood;
 
-            print(nbreOfObjects);
-        }
-        if (nbreOfObjects == numberOfObjects)
+        print(index + " : " + _isGood);
+        if (isValid())
         {
             if (isSoup)
             {
@@ -62,6 +56,8 @@ public class DQuestBook : Interactive
             }
             else
             {
+                var bowl = FindObjectOfType<DBowl>();
+                bowl.gameObject.SetActive(true);
                 GetComponent<AudioSource>().Play();
                 foreach (DPlates dp in plates)
                 {
@@ -71,9 +67,26 @@ public class DQuestBook : Interactive
                 {
                     dg.gameObject.GetComponent<SphereCollider>().enabled = false;
                 }
-                nbreOfObjects = 0;
+
+                for(int i = 0; i < isGood.Length; i++)
+                {
+                    isGood[i] = false;
+                }
             }
         }
+    }
+
+    private bool isValid()
+    {
+        foreach (bool i in isGood)
+        {
+            if (!i)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     public override void OnInteraction()
