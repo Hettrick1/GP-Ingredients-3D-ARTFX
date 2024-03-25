@@ -8,6 +8,7 @@ public class DQuestBook : Interactive
 {
     [SerializeField] private GameObject questBook;
     [SerializeField] private GameObject bowl;
+    [SerializeField] private GameObject key;
     [SerializeField] private KeyItemData jug;
 
     private bool isShowing, isSoup;
@@ -26,6 +27,7 @@ public class DQuestBook : Interactive
         plates = GameObject.FindObjectsOfType<DPlates>();
         glasses = GameObject.FindObjectsOfType<DGlasses>();
         bowl.gameObject.SetActive(false);
+        key.gameObject.SetActive(false);
 
         foreach (DPlates dp in plates)
         {
@@ -51,6 +53,7 @@ public class DQuestBook : Interactive
                 {
                     dp.gameObject.GetComponent<SphereCollider>().enabled = false;
                 }
+                key.gameObject.SetActive(true);
             }
             else
             {
