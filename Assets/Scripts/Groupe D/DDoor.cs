@@ -1,12 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DDoor : Interactive
 {
-
+    public int levelIndex = 1;
     public override void OnInteraction()
     {
-        Debug.LogWarning("LOAD THE NEXT SCENE"); //ce script est le meme pour le premier et le deuxième niveau, il faut donc utiliser un index.
+        switch (levelIndex)
+        {
+            case 1:
+                SceneManager.LoadScene("D_DiningRoom");
+                break;
+            
+            case 2:
+                //SceneManager.LoadScene("Next Level");
+                print("load next level here");
+                break;
+
+        }
     }
 }

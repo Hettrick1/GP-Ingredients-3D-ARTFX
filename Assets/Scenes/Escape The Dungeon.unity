@@ -54155,6 +54155,7 @@ MonoBehaviour:
   requiredItems:
   - {fileID: 11400000, guid: b205358823aa3d544894576ddd858f6c, type: 2}
   waitForObject: 0
+  levelIndex: 1
 --- !u!1001 &9038126949266174308
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -87045,7 +87045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6638389628579548449, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7248858325135883153, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -92458,7 +92458,7 @@ PrefabInstance:
       addedObject: {fileID: 1651678387}
     - targetCorrespondingSourceObject: {fileID: 1923930166926854605, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1651678385}
+      addedObject: {fileID: 1651678388}
   m_SourcePrefab: {fileID: 100100000, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
 --- !u!4 &1651678383 stripped
 Transform:
@@ -92470,23 +92470,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1923930166926854605, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
   m_PrefabInstance: {fileID: 1651678382}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1651678385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651678384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893b13c5033874188b8a664211b596ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionType: 2
-  onlyOnce: 1
-  requiredItems:
-  - {fileID: 11400000, guid: b205358823aa3d544894576ddd858f6c, type: 2}
-  waitForObject: 0
 --- !u!135 &1651678386
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -92504,7 +92487,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Radius: 1.19
   m_Center: {x: 0.5885581, y: 1.1175506, z: 0.048878536}
@@ -92529,6 +92512,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2314577, y: 2.1323714, z: 0.3458989}
   m_Center: {x: 0.5885581, y: 1.1175506, z: 0.048878536}
+--- !u!114 &1651678388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651678384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3439da50df0ac9248bb8ab03c33de195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  onlyOnce: 1
+  requiredItems:
+  - {fileID: 11400000, guid: b205358823aa3d544894576ddd858f6c, type: 2}
+  waitForObject: 0
+  levelIndex: 2
 --- !u!1001 &1653295573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102706,6 +102707,7 @@ MonoBehaviour:
   requiredItems:
   - {fileID: 11400000, guid: b205358823aa3d544894576ddd858f6c, type: 2}
   waitForObject: 1
+  levelIndex: 1
 --- !u!135 &2117569449
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escape The Dungeon.unity
     guid: 4eeb9ddab3a29844bb7f984ac3ed7423
+  - enabled: 1
+    path: Assets/Scenes/D_DiningRoom.unity
+    guid: 0c197931db98bf943ae0080a324725ee
   m_configObjects: {}
